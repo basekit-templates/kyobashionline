@@ -1,8 +1,7 @@
 {
 	"name":"Kyobashi Online",
-	"directory":"kyobashionline",
-	"thumbnail":"/kyobashionline/kyobashionline.jpg",
-	"screenshot":"/kyobashionline/kyobashionline.jpg",
+	"thumbnail":"kyobashionline.jpg",
+	"screenshot":"kyobashionline.jpg",
 	"pageTypes":[],
 	"defaultColorSwatch":"Earth 1",
 	"defaultFontSwatch":"Lato"
