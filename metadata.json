@@ -2,6 +2,11 @@
     "name":"Kyobashi Online",
     "thumbnail":"kyobashi.png",
     "screenshot":"kyobashi.png",
+    "tags": {
+    "en": ["professional", "clean", "business", "modern"],
+    "es": ["profesional", "limpio", "corporativo", "moderno"],
+    "br": ["profissional", "limpo", "corporativo", "moderno"]
+    },
     "colorSwatches":
     {
         "Swatch 1": {
