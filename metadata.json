@@ -11,7 +11,7 @@
     {
         "Swatch 1": {
             "color1":"#ffffff",
-            "color2":"#ff8f73",
+            "color2":"#474747",
             "color3":"#ff8f73",
             "color4":"#474747",
             "color5":"#a99877",
@@ -56,33 +56,33 @@
         }
     },
     "fontSwatch": {
-       "title": "Lato",
+       "title": "Roboto",
         "font1": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "20px",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
+            "font-size": "32px",
             "font-weight": "400",
             "line-height": "24px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "44px",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
+            "font-size": "28px",
             "font-weight": "inherit",
             "line-height": "36px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "30px",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
+            "font-size": "24px",
             "font-weight": "300",
-            "line-height": "64px",
+            "line-height": "32px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
             "font-size": "18px",
             "font-weight": "inherit",
             "line-height": "34px",
@@ -90,7 +90,7 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
             "font-size": "16px",
             "font-weight": "400",
             "line-height": "28px",
@@ -98,7 +98,7 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
             "font-size": "14px",
             "font-weight": "300",
             "line-height": "28px",
@@ -109,8 +109,8 @@
             "background-color-hover": "darken(@color-swatch2,20%)"
         },
         "font7": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "20px",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
+            "font-size": "18px",
             "font-weight": "inherit",
             "line-height": "32px",
             "color": "@color-swatch1",
@@ -119,23 +119,23 @@
             "background-color-hover": "darken(@color-swatch3,10%)"
         },
         "font8": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
-            "font-size": "28px",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
+            "font-size": "40px",
             "font-weight": "400",
-            "line-height": "45px",
-            "color": "@color-swatch1",
+            "line-height": "40px",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
             "font-size": "20px",
             "font-weight": "400",
             "line-height": "26px",
-            "color": "@color-swatch1",
+            "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
             "font-size": "20px",
             "font-weight": "400",
             "line-height": "24px",
