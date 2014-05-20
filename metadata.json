@@ -2,6 +2,7 @@
     "name":"Kyobashi Online",
     "thumbnail":"kyobashi.png",
     "screenshot":"kyobashi.png",
+    "templateType":"standard",
     "tags": {
     "en": ["professional", "clean", "business", "modern", "corporate", "flexible", "multipurpose", "media"],
     "es": ["profesional", "limpio", "corporativo", "moderno", "corporativo", "flexible", "multiuso", "comunicacion"],
