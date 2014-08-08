@@ -273,7 +273,9 @@ button.btn,
 .widget.ecomproduct .ecom-product .btn,
 .widget.ecomcheckout table tr td .checkout-quantitybtn button,
 .widget.feature .feature-btn button,
-.widget.feature .feature-bgimg .content button {
+.widget.feature .feature-bgimg .content button,
+.widget.profile .bk-profile-socialicons span a,
+.widget.socialicons span a {
 	font-family: @font-swatch7-font-family;
 	font-size: @font-swatch7-font-size;
 	font-weight: @font-swatch7-font-weight;
@@ -308,6 +310,12 @@ button.btn,
 	display: inline-block;
 }
 
+.widget.profile .bk-profile-socialicons span a,
+.widget.socialicons span a {
+	width: 32px;
+	height: 32px;
+	border-radius: 100%;
+}
 
 /* ===============================
    TWITTER WIDGET
@@ -475,54 +483,6 @@ div.twitter-profile-pic {
        
     }
 }
-
-
-//  ==================================
-//  SOCIAL ICONS
-//  ==================================
-
-// Main Social Icons
-.widget {
-    &.socialicons {
-    	.clearfix;
-        span {
-            a {
-                width: 38px;
-                height: 38px;
-                -webkit-border-radius: 50%;
-                -moz-border-radius: 50%;
-                border-radius: 50%;
-                background-color: @font-swatch7-background-color;
-                border: 1px solid darken(@color-swatch3,5%);
-                box-shadow: 0 0 4px rgba(0,0,0,0.2), inset 0 3px 3px rgba(255,255,255,0.2);
-                text-shadow: 0 1px solid rgba(0,0,0,0.2);
-            }
-        }
-    }
-}
-
-// Profile Social Icons
-footer {
-    &.bk-footer {
-        .widget {
-            &.profile .bk-profile-socialicons {
-                span {
-                    a {
-                        width: 30px;
-                        height: 30px;
-                        -webkit-border-radius: 50%;
-                        -moz-border-radius: 50%;
-                        border-radius: 50%;
-                        background-color: @font-swatch7-background-color;
-                        box-shadow: 0 0 4px rgba(0,0,0,0.2), inset 0 3px 3px rgba(255,255,255,0.2);
-                        text-shadow: 0 1px solid rgba(0,0,0,0.2);
-                    }
-                }
-            }
-        }
-    }
-}
-
 
 //  ==================================
 //  PROFILE WIDGET
@@ -1046,7 +1006,8 @@ footer {
                     }
                 }
                 textarea {
-                    height: 100px;
+                    min-height: 100px;
+                	resize: vertical;
                 }
                 button {
                     display: block;
