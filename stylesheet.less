@@ -275,7 +275,8 @@ button.btn,
 .widget.feature .feature-btn button,
 .widget.feature .feature-bgimg .content button,
 .widget.profile .bk-profile-socialicons span a,
-.widget.socialicons span a {
+.widget.socialicons span a,
+.widget.clicktocall a {
 	font-family: @font-swatch7-font-family;
 	font-size: @font-swatch7-font-size;
 	font-weight: @font-swatch7-font-weight;
@@ -291,6 +292,7 @@ button.btn,
 	transition: .2s;
 	margin: 0;
 	&:hover {
+		padding: 8px 14px;
 		text-decoration: none;
 		background-color: @font-swatch7-background-color-hover;
 		cursor: pointer;
@@ -299,15 +301,20 @@ button.btn,
 
 .widget.paypalbuynow .widget.button.paypal,
 .widget.dropbox button,
-.widget.tweet a {
+.widget.tweet a,
+.widget.clicktocall a {
 	padding-left: 40px;
+	&:hover {
+		padding-left: 40px;
+	}
 }
 
 .widget.ecombasket .ecombasket-list-container .ecombasket-checkout-wrap .ecombasket-checkout-link,
 .widget.tweet a,
 .ecom-product-go-to-checkout-btn,
 .ecombasket-summary-link,
-.basket-summary-empty-cta {
+.basket-summary-empty-cta,
+.widget.clicktocall a {
 	display: inline-block;
 }
 
@@ -881,6 +888,10 @@ div.twitter-profile-pic {
 .blog-post-more-link {
     float: left;
     width: 100%;
+}
+
+.widget.blogsearch {
+	margin-bottom: 20px;
 }
 
 // ===============================
