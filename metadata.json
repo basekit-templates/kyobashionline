@@ -3,6 +3,7 @@
     "thumbnail":"kyobashi.png",
     "screenshot":"kyobashi.png",
     "templateType":"standard",
+    "pageTypes": ["home"],
     "tags": {
     "en": ["professional", "clean", "business", "modern", "corporate", "flexible", "multipurpose", "media"],
     "es": ["profesional", "limpio", "corporativo", "moderno", "corporativo", "flexible", "multiuso", "comunicacion"],
