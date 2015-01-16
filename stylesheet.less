@@ -204,7 +204,24 @@ header {
 
 .widget {
     &.feature {
+
         margin: 0 0 50px;
+
+        // Sets minimal height
+        // Must be applied to this pseudoelement, because
+        // the other elements are displayed as table where
+        // min-height does not work
+        .feature-bgimg:after {
+            content: '';
+            display: block;
+            @media @tablet {
+                min-height: 400px;
+            }
+            @media @media {
+                min-height: 300px;
+            }
+        }
+
         .feature-bgimg,
         .feature-bgimg .content {
             height: 550px;
