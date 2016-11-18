@@ -58,90 +58,90 @@
         }
     },
     "fontSwatch": {
-       "title": "Roboto",
+       "title": "Oswald",
         "font1": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "32px",
-            "font-weight": "400",
-            "line-height": "24px",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "36px",
+            "font-weight": "inherit",
+            "line-height": "44px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "28px",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "32px",
+            "font-weight": "inherit",
+            "line-height": "40px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font3": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "26px",
+            "font-weight": "inherit",
+            "line-height": "38px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font4": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "20px",
+            "font-weight": "inherit",
+            "line-height": "32px",
+            "color": "@color-swatch4",
+            "letter-spacing": "inherit"
+        },
+        "font5": {
+            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-size": "18px",
             "font-weight": "inherit",
             "line-height": "36px",
             "color": "@color-swatch4",
             "letter-spacing": "inherit"
         },
-        "font3": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "24px",
-            "font-weight": "300",
-            "line-height": "32px",
-            "color": "@color-swatch4",
-            "letter-spacing": "inherit"
-        },
-        "font4": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "18px",
-            "font-weight": "inherit",
-            "line-height": "34px",
-            "color": "@color-swatch4",
-            "letter-spacing": "inherit"
-        },
-        "font5": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "16px",
-            "font-weight": "400",
-            "line-height": "28px",
-            "color": "@color-swatch4",
-            "letter-spacing": "inherit"
-        },
         "font6": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "14px",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "16px",
             "font-weight": "300",
             "line-height": "28px",
             "color": "@color-swatch6",
-            "color-hover": "darken(@color-swatch6,30%)",
-            "letter-spacing": "inherit",
-            "background-color": "@color-swatch2",
-            "background-color-hover": "darken(@color-swatch2,20%)"
-        },
-        "font7": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "18px",
-            "font-weight": "inherit",
-            "line-height": "32px",
-            "color": "@color-swatch1",
+            "color-hover": "@color-swatch3",
             "letter-spacing": "inherit",
             "background-color": "@color-swatch3",
-            "background-color-hover": "darken(@color-swatch3,10%)"
+            "background-color-hover": "@color-swatch3"
+        },
+        "font7": {
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "15px",
+            "font-weight": "inherit",
+            "line-height": "36px",
+            "color": "@color-swatch1",
+            "letter-spacing": "1px",
+            "background-color": "@color-swatch3",
+            "background-color-hover": "darken(@color-swatch3,5%)"
         },
         "font8": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "40px",
-            "font-weight": "400",
-            "line-height": "40px",
-            "color": "@color-swatch4",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "66px",
+            "font-weight": "300",
+            "line-height": "68px",
+            "color": "@color-swatch1",
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "20px",
-            "font-weight": "400",
-            "line-height": "26px",
-            "color": "@color-swatch4",
-            "letter-spacing": "inherit"
+            "font-family": "\"Vollkorn\", Georgia, serif",
+            "font-size": "15px",
+            "font-weight": "inherit",
+            "line-height": "38px",
+            "color": "@color-swatch5",
+            "letter-spacing": "3px"
         },
         "font10": {
-            "font-family": "\"Roboto\", Geneva, Tahoma, sans-serif",
-            "font-size": "20px",
-            "font-weight": "400",
-            "line-height": "24px",
-            "color": "@color-swatch4",
+            "font-family": "\"Oswald\", Arial, sans-serif",
+            "font-size": "23px",
+            "font-weight": "300",
+            "line-height": "44px",
+            "color": "@color-swatch1",
             "letter-spacing": "inherit"
         }
     }
