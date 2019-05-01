@@ -1,0 +1,108 @@
+
+// -----------------------------
+//  Migration
+// -----------------------------
+
+
+
+
+// Site Layout and Spacing
+// -----------------------------
+
+@site-container: 960px;
+@site-margin: auto;
+@site-padding: 50px;
+
+#page-zones__main > .widget:not(.row),
+#page-zones__main:empty,
+.empty-zone,
+.bk-header .wrapper,
+.bk-footer .wrapper,
+.feature .wrapper {
+    margin-left: @site-margin;
+    margin-right: @site-margin;
+    max-width: @site-container;
+}
+.bk-header .wrapper,
+.bk-footer .wrapper,
+.feature .wrapper,
+#page-zones__main > .widget:not(.row){
+    width: 90%;
+}
+
+
+
+
+// Zone Spacing
+// -----------------------------
+
+
+// Add spacing to the zone when empty
+.edit #page-zones__main-overlay.empty-zone,
+.edit #page-zones__main:empty {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 40px;
+    position: relative;
+}
+
+
+// Move spacing to first widget in the main zone (not rows)
+.edit #page-zones__main-overlay + .widget:not(.row),
+#page-zones__main > .widget:not(.row):first-child,
+#page-zones__main > .row + .widget:not(.row) {
+    margin-top: 70px;
+    
+    @media @tablet {
+        margin-top: 50px;
+    }
+}
+
+
+// Move spacing to last widget in the main zone (not rows)
+#page-zones__main > .widget:not(.row):last-child {
+    margin-bottom: 20px;
+}
+
+
+
+
+// Row overrides
+// -----------------------------
+
+
+// Content group
+.widget .contentgroup__link {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contentgroup__heading {
+    padding-bottom: .4em !important;
+}
+
+
+// Hero 5a
+.row--hero-5a .signupform fieldset input {
+    width: inherit;
+}
+
+
+// Form 4a
+.row--form-4a .row__container > .advancedcontactform[data-name="advancedcontactform"] {
+    margin-left: initial;
+}
+.advancedcontactform {
+    max-width: 800px;
+}
+.advancedcontactform .button {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
