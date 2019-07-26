@@ -17,14 +17,25 @@ body {
     outline: none;
 }
 
+.wrapper {  
+    width: 90%; 
+    margin: 0 5%;   
+}   
+
+ @media only screen and (min-width: 1140px) {   
+  .wrapper {    
+    width: 960px; /* 1140px - 10% for margins */    
+    margin: 0 auto; 
+  } 
+}
 
 /* ===============================
    CUSTOM CSS
    =============================== */
 
-// .main {
-//   padding: 20px 0;
-// }
+.main {
+  padding: 20px 0;
+}
 
 /* DEFAULT PAGE TYPE */
 
@@ -193,7 +204,7 @@ header {
 .widget {
     &.feature {
 
-        // margin: 0 0 50px;
+        margin: 0 0 50px;
 
         // Sets minimal height
         // Must be applied to this pseudoelement, because
@@ -1384,4 +1395,4 @@ div.twitter-profile-pic {
    =============================== */   
 
    
-/* @import "@{templateCommon}/migration/migration.less"; */
+@import "@{templateCommon}/migration/migration.less";
