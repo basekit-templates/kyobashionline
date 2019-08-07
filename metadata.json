@@ -4,6 +4,7 @@
     "screenshot":"kyobashionline-screenshot.jpg",
     "templateType":"standard",
     "pageTypes": ["home"],
+    "versionTenCompatible": 1,
     "tags": {
     "en": ["professional", "clean", "business", "modern", "corporate", "flexible", "multipurpose", "media"],
     "es": ["profesional", "limpio", "corporativo", "moderno", "corporativo", "flexible", "multiuso", "comunicacion"],
